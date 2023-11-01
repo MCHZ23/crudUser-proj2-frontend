@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://cruduser-proj2-backend-dev-acmq.3.us-1.fl0.io",
+  baseURL: "https://cruduser-proj2-backend-dev-acmq.3.us-1.fl0.io/users",
 });
 
 export default axiosInstance;
